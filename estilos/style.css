@@ -7,3 +7,25 @@
     --green-light: #34B1A1;
     --brown-light: #BA9556;
 }
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header img {
+    height: 15vh;
+}
+menu ul{
+    display: flex;
+    margin-left: 50px;
+
+}
+menu ul li a {
+    text-decoration: none;
+}
